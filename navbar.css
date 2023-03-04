@@ -1,0 +1,352 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: solid;
+    list-style-type: none;
+    box-sizing: border-box;
+ }
+body{
+    font-family: 'Times New Roman', Times, serif;
+      background-color:rgba(128, 128, 128, 0.37);   
+    
+   
+}
+nav{
+    /* background-color:rgba(128, 128, 128, 0.61); */
+    background-color:rgb(128, 128, 128);
+    height:200px;
+    width: 100%;
+   align-items: center;
+  
+   
+    
+}
+.logo{
+    height: 90px;
+    width: 30px;
+    color: rgba(19, 1, 1, 0.986);
+    font-size: 65px;
+    font-weight: bolder;
+    margin-left: 0px;
+    padding: 0 40px;
+    line-height: 220px;
+}
+
+
+ul{
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+li{
+    display: inline-block;
+    line-height: 200px;
+    margin: 20px;
+}
+a{
+    color: aliceblue;
+    padding: 30px 13px;
+    border-radius: 10px;
+    font-size:22px ;
+    /* font-weight: bold; */
+}
+.avtive,a:hover{
+    /* background: rgba(155, 234, 241, 0.596); */
+    background: rgba(0, 0, 0, 6);
+    transition: 1s;
+    transform: scale(1.2);
+    
+
+}
+i{
+    margin-right: 10px;  
+}
+.forest{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+}
+.box{
+    width: 700px;
+    height: 30px;
+    float: right;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 30px;
+    margin: 10px;
+    margin-right: 650px;
+}
+
+.box > i {
+    font-size: 30px;
+    color: rgb(29, 3, 3);
+}
+
+.box > input{
+    flex: 1px;
+    height: 60px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+
+}
+/* .search{
+    color:rgba(27, 87, 9, 0.822);
+    opacity: 90px; */
+
+
+
+    
+
+.container{
+    width: 400px;
+    height: 500px;
+    border: 5px solid rgb(8, 7, 7) ;
+    margin-left: 50px;
+    margin-top: 60px;
+     border-radius: 20px;
+     padding-top: 40px;
+
+
+}
+.location{
+    margin-left: 20px;
+    font-size: 25px;
+    line-height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.head{
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+
+.going{
+    font-size: 24px;
+    margin-top: 0px;
+    margin-top: -100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    display: inline-block;
+
+
+}
+ .location i{
+    margin-left: 10px;
+    margin-top: -120px;
+}
+.h{
+    width: 100%;
+    height: 0px;
+    color: #000;
+}
+
+.hh{
+    width: 400px;
+    height: 500px;
+    border: 3px solid rgb(8, 7, 7) ;
+    /* margin-left: 50px; */
+     margin-top: -500px;
+     border-radius: 20px;
+    float: right; 
+    margin-right: 800px;
+    
+}
+
+
+.heed{
+    font-size: 30px;
+    font-weight: 700px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name{
+    border-radius: 20px;
+    height: 30px;
+    width: 190px;
+}
+.user{
+    margin-left: 20px;
+    font-size: 28px;
+    line-height: 80px;
+}
+.Uuser{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.Nname{
+    height: 35px;
+    width: 170px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.gen{
+     font-size: 25px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin-left: 30px;
+     margin-top: 30px;
+}
+.hhh{
+    width: 400px;
+    height: 500px;
+    border: 3px solid rgb(8, 7, 7) ;
+    /* margin-left: 50px; */
+     margin-top: -500px;
+     border-radius: 20px;
+    float: right; 
+    margin-right: 50px;
+}
+.contact{
+    width: 400px;
+    height: 500px;
+    border: 5px solid rgb(8, 7, 7) ;
+    margin-right: 50px;
+     margin-top: -500px;
+     border-radius: 20px;
+     float: right;
+}
+.detail{
+    margin-left: 20px;
+    font-size: 25px;
+    line-height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.email{
+        font-size: 30px; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left:20px ;
+        margin-top: 30px;
+}
+.ee{
+    height: 35px;
+    width: 200px;
+    border-radius: 20px;
+} 
+.mobile{
+    font-size: 30px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:20px ;
+    margin-top: 150px;
+    line-height: 130px; 
+}
+
+.mm{
+    height: 35px;
+    width: 200px;
+    border-radius: 20px;
+}
+.tele{
+    font-size: 30px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:20px ;
+    margin-top: 150px;
+    line-height: 90px; 
+}
+.tt{
+    height: 35px;
+    width: 190px;
+    border-radius: 20px;
+}
+   
+.tour_karachi {
+    text-align: left;
+    padding-left: 20px;
+  }
+  .tour_karachi > h4 {
+    font-size: 30px;
+    margin: 0px;
+    font-size: 40px;
+    
+  }
+  
+  
+  .tour_karachi > p {
+    text-align: left;
+  }
+  
+  .karachi_card {
+    height: 480px;
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 3px 5px;
+    position: relative;
+    margin-right: 20px;
+    transition: 1s;
+  }
+ 
+  .line{
+        font-size: 30px;
+  }
+  
+  
+  
+  .karachi_card_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .karachi_card:hover {
+    /* opacity: 0.4; */
+    transform: scale(1.2);
+    z-index: 2;
+  }
+  
+  .karachi_card_img {
+    height: 380px;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 6px;
+  }
+  
+  .karachi_card_heading,
+  .karachi_card_desc {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 12px;
+  }
+  
+  .karachi_card_heading {
+    font-size: 18px;
+    padding-top: 5px;
+  }
+  .karachi_card_desc {
+    padding-top: 15px;
+  }
+  
+  .karachi_heart {
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #ccc;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 100;
+    
+  }
+  
+  .karachi_heart > i {
+    color: #000;
+    margin-right: 0px;
+    font-size: 25px;
+  }
